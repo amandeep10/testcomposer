@@ -1,0 +1,22 @@
+{
+    "name": "aman/autoload",
+    "description": "autoloader",
+    "keywords": ["aman", "autoload"],
+    "type": "library",
+    "homepage": "https://github.com/amandeep10/testcomposer",
+    "license": "1.1",
+    "authors": [
+        {
+            "name": "amandeep singh",
+            "homepage": "https://github.com/amandeep10/testcomposer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
